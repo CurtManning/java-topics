@@ -7,9 +7,11 @@ public class LearnVariables {
 		int x=20;
 		int y=11;
 		
+		// Addition
 		int result= x + y;		
 		System.out.println("result addtion " + result);
 		
+		// Division
 		result = x / y;	
 		System.out.println("result division " + result );
 		
