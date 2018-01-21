@@ -1,9 +1,9 @@
-package introduction;
+package week1.day2;
 
 public class ExampleSwitchCase {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		int j = 4;
 
 		switch (j) {
