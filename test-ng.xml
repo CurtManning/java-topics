@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Complete TestSuite">
+	<test name="Application Test 1 Smoke">
+		<classes>
+			<class name="week2.day1.testclasses.SumMethodTest"></class>
+			<class name="week2.day1.testclasses.MyLinearSearchTest">
+				<methods> <!-- Only runs the included method -->
+					<include name="testLinearSearchInt" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Application Test 2 regression">
+		<classes>
+			<class name="week2.day1.testclasses.SumMethodTest"></class>
+			<class name="week2.day1.testclasses.MyLinearSearchTest"></class>
+			<class name="week2.day1.testclasses.ExampleMethodTest"></class>
+		</classes>
+	</test>
+</suite>

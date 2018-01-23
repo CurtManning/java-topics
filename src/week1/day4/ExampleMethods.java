@@ -1,6 +1,6 @@
 package week1.day4;
 
-public class ExampleArrays {
+public class ExampleMethods {
 	// Inefficient
 	static int a = 10;
 	static int b = 20;
