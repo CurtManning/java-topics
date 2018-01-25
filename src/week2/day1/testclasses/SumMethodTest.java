@@ -1,8 +1,6 @@
 package week2.day1.testclasses;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import week1.day4.SumMethod;
 

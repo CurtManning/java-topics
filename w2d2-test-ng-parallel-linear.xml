@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel TestSuite" parallel="tests" thread-count="2">
+	<test name="Linear Match Test" enabled="true">
+		<parameter name="searchArray" value="23,45,21,55,34,1,34,90"></parameter>
+		<parameter name="key" value="34"></parameter>
+		<parameter name="arrayIndex" value="4"></parameter>
+		<classes>
+			<class name="week2.day2.testclasses.ParallelLinearSearch"></class>
+		</classes>
+	</test>
+	<test name="Linear No Match Test" enabled="true">
+		<parameter name="searchArray" value="23,45,21,55,34,1,34,90"></parameter>
+		<parameter name="key" value="65"></parameter>
+		<parameter name="arrayIndex" value="-1"></parameter>
+		<classes>
+			<class name="week2.day2.testclasses.ParallelLinearSearch"></class>
+		</classes>
+	</test>
+</suite>

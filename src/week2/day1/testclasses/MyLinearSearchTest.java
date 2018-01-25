@@ -7,7 +7,7 @@ import week1.day4.MyLinearSearch;
 
 public class MyLinearSearchTest {
 
-	@Test(testName = "testlinear - searchKey exists", priority = 2)
+	@Test(testName = "testlinear - searchKey exists")
 	public void testLinearSearchInt() {
 		System.out.println("\nMyLinearSearchTest -> testLinearSearchInt ");
 		int[] arr1 = { 23, 45, 21, 55, 34, 1, 34, 90 };
@@ -16,7 +16,7 @@ public class MyLinearSearchTest {
 		Assert.assertEquals(result, 4);
 	}
 
-	@Test(testName = "testlinear - searchKey does not exist", priority = 1)
+	@Test(testName = "testlinear - searchKey does not exist")
 	public void testLinearSearchArray() {
 		System.out.println("\nMyLinearSearchTest -> testLinearSearchArray ");
 		int[] arr1 = { 23, 45, 21, 55, 34, 1, 34, 90 };

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DataProvider TestSuite">
+<test name="HomeWork ">
+	<classes>
+		<class name="week2.day2.testclasses.ExampleIfTestDataProvider"></class>
+	</classes>
+</test>
+</suite>

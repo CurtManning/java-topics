@@ -1,16 +1,22 @@
 package week2.day1.testclasses;
 
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import week1.day4.ExampleMethods;
 
 public class ExampleMethodTest {
 
 	@Test
-	public void testMethod1() {
+	@Parameters({"sumstring"})
+	public void testMethod1(String sumstring) {
+		String[] stringArray = sumstring.split(",");
+		int answer = Integer.parseInt(stringArray[0]);
+		int a = Integer.parseInt(stringArray[1]);
+		int b = Integer.parseInt(stringArray[2]);
 		System.out.println("\nExampleMethodTest -> testMethod1 ");
-		int result = ExampleMethods.sum(10, 20);
-		Assert.assertEquals(result, 30);
+		int result = ExampleMethods.sum(a, b);
+		Assert.assertEquals(result, answer);
 	}
 
 	@Test

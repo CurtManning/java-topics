@@ -13,6 +13,7 @@
 		</classes>
 	</test>
 	<test name="Application Test 2 regression">
+			<parameter name="sumstring" value="30,20,10"></parameter> <!-- value answer = x + y -->
 		<classes>
 			<class name="week2.day1.testclasses.SumMethodTest"></class>
 			<class name="week2.day1.testclasses.MyLinearSearchTest"></class>
